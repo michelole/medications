@@ -58,6 +58,34 @@ public class Medication {
 		return conceptID;
 	}
 
+	public String getTermID() {
+		return termID;
+	}
+
+	public String getTermLabel() {
+		return termLabel;
+	}
+
+	public String getTermType() {
+		return termType;
+	}
+
+	public String getLanguage() {
+		return language;
+	}
+
+	public boolean isPreferred() {
+		return isPreferred;
+	}
+
+	public String getParentConceptID() {
+		return parentConceptID;
+	}
+
+	public String getMappingForms() {
+		return mappingForms;
+	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
